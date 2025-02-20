@@ -45,7 +45,7 @@ runs:
         npm_package_name: ${{ inputs.npm_package_name }}
 
     - name: Set up drivers-github-tools
-      uses: baileympearson/drivers-github-tools/setup@v2
+      uses: baileympearson/drivers-github-tools/setup@bailey-sbom-2.0
       with:
         aws_region_name: ${{ inputs.aws_region_name }}
         aws_role_arn: ${{ inputs.aws_role_arn }}
